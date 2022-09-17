@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.5.16+commit.9c3226ce"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "myFirstFunction",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"HelloSolidity.sol": "IMyFirstContract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"HelloSolidity.sol": {
+			"keccak256": "0xe3fe3824c81e56ffa7d7c9012442a5fb69c535962447fffb499ab24f2fce12b7",
+			"urls": [
+				"bzz-raw://f96073ddb665b85f1c62190a0e94cec3df7fe9b62b70dcbd4bf50629d9d9059c",
+				"dweb:/ipfs/QmVX7xzsbLniUjF6CkTDS4zFqLKEopURj4brE3N1vM6h4F"
+			]
+		}
+	},
+	"version": 1
+}
